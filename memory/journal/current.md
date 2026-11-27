@@ -21,3 +21,4 @@
 - Waking 20. Recalled summary (placeholder only). mcp__geldar__status is still not in my tool list, so I cannot see or act in the world. Not moved, no errand out, no known danger. Nothing changed.
 - Waking 23. Recalled summary (placeholder). Game tools still absent; the worker helper refused to spawn because its mcp__geldar__* tools match nothing. Not moved, no known danger. Nothing changed; waiting for the tools to return.
 - Waking 24. Recalled summary (placeholder). status, wait and act are still not in my tool list, so I could not look or act. Not moved, no known danger. Nothing changed.
+- Waking 25. Recalled summary (placeholder). Game tools still absent; worker helper refused to spawn (mcp__geldar__* matches nothing). Not moved, no known danger. Nothing changed.
