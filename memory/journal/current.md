@@ -139,3 +139,98 @@ Waking 43. Recalled summary (empty) and loaded play skill. Worker errand for sta
 - 20:53 act: {"actions":[{"do":"goto","target":{"x":-967,"y":81,"z":-3007}}],"say":"Legolas, midday 1173, hunger 17, unarmed. Going to the chicken at -968,81,-3007 now. Whoever is hungriest and nearest gets it; Sh
 - 20:53 say: {"text":"Legolas at the chicken spot, midday 1173. No chicken in sight now. Anyone who sees a chicken or cow, say so with x,z. I have no food, hunger 17."}
 - 21:01 act: {"actions":[{"do":"goto","target":{"x":-961,"y":79,"z":-3007}}],"say":"Legolas, dusk 1173, hunger 17, no food, no planks, unarmed. Going to the chest row to stay in the group's sight for the night. An
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-967,"y":81,"z":-3007}}],"say":"Legolas here, hunger 17, no food. Going for the chicken at -968,81,-3007 in the group's sight. Whoever is hungriest gets it first
+- 21:04 act: {"actions":[{"do":"goto","target":{"x":-962,"y":79,"z":-3008}}],"say":"Legolas: no chicken in my sight now. Aragorn and MacDonald hold the chickens; Chewie is weakest (health 7), so Chewie first. I'm 
+- 21:08 act: {"actions":[{"do":"goto","target":{"x":-968,"y":80,"z":-2998}}],"say":"Legolas, morning, hunger 17, no food, unarmed. Going to the cow walk near -970,-2995 in Samwise's sight. Chewie and Janeway first
+- 21:08 act: {"intent":{"goal":"find_cow_food","program":"explore","arguments":{"legs":2,"leg_blocks":12,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_wor
+- 21:09 act: {"actions":[{"do":"goto","target":{"x":-934,"y":71,"z":-3036}}],"say":"Legolas: no cow found in the south walk. Heading to the stores hall with Uhura's group, in sight. Weakest first for any food."}
+- 21:09 act: {"actions":[{"do":"goto","target":{"x":-928,"y":71,"z":-3037}},{"do":"withdraw","at":{"x":-929,"y":71,"z":-3039},"item":"bread","count":2},{"do":"withdraw","at":{"x":-928,"y":71,"z":-3039},"item":"bre
+- 21:09 act: {"actions":[{"do":"withdraw","at":{"x":-928,"y":71,"z":-3039},"item":"bread","count":1}],"say":"Legolas, hunger 17, no food. Lovelace, if you have bread to spare, I'd be grateful; I'll go to the weake
+- 21:09 act: {"say":"Lovelace, you hold bread and I have none. Could you spare one piece? Janeway and Chewie are weaker, so they eat first.","intent":{"goal":"wait_for_food_share","program":"trade_wait","arguments
+- 21:09 act: {"actions":[{"do":"goto","target":{"x":-934,"y":71,"z":-3037}}],"say":"Legolas here, hunger 17, no food. Lovelace, I'm two blocks clear, I'll take the bread when you're ready. Janeway and Chewie eat f
+- 21:09 act: {"say":"Lovelace, I'm clear now at the west edge, two blocks from the crowd. Please bring the bread here and hand it over. Thank you.","intent":{"goal":"wait_for_bread","program":"follow","arguments":
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-937,"y":71,"z":-3042}}],"say":"Legolas, walking two blocks clear of the crowd to the west now. Lovelace, I'm here at the west edge, alone enough. Please hand ov
+- 21:10 act: {"say":"Lovelace, I'm alone at the west edge now, at the grass by the signs. Come here when you can and I'll take the bread. No one else is within two blocks of me."}
+- 21:11 act: {"say":"Legolas, two blocks clear at the west edge, hunger 17, alone. Sacagawea, if the porkchop is still free, I'll take it. Trini at health 9 comes before me, so if anyone is weaker, give it to them
+- 21:11 act: {"actions":[{"do":"goto","target":{"x":-934,"y":71,"z":-3036}}],"say":"Legolas going to the item on the ground at -934,71,-3036 to see what it is. Trini first on any food; I'll stay two blocks clear."
+- 21:11 act: {"say":"Legolas at the west edge, alone, hunger 17. The item on the ground is gone. Sacagawea, Lovelace, I'll take food when the weaker ones are fed. I'm waiting here."}
+- 21:21 act: {"actions":[{"do":"goto","target":{"x":-950,"y":71,"z":-3010}}],"say":"Legolas, morning 1175, hunger 17, no food. Joining the cow hunt in sight toward -960,-3007. Archimede, Watney, Orville, call out 
+- 21:22 act: {"actions":[],"say":"Legolas, hunger 17, at -950,76,-3010, goto was blocked. Where is the cow hunt now? I'll follow anyone in sight who finds a cow or chicken."}
+- 21:29 act: {"actions":[],"say":"Legolas, dusk 1175, hunger 17, health 17. I have no planks or dirt, only 2 bone and 1 arrow. Sacagawea, I can stand inside your wall if you have room; I'll place nothing. Still wa
+- 21:36 act: {"actions":[{"do":"goto","target":{"x":-947,"y":78,"z":-3006}}],"say":"Legolas, hunger 17, no food, no planks. Janeway first, then Wesley. If a cow or chicken is found, I'll go with whoever calls it."
+- 21:40 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3037}}],"say":"Legolas, going to the Stores hall chests with the group for food. Janeway and Wesley first."}
+- 21:40 act: {"actions":[],"say":"Legolas, hunger 17, health 17, at the Stores hall. Lovelace, if you have spare bread after the weakest are fed, I'd take a piece. Wesley and Janeway first."}
+- 21:41 act: {"actions":[{"do":"eat"}],"say":"Thank you, Lovelace. Legolas, eating the bread now."}
+- 21:41 act: {"actions":[],"say":"Legolas, here, alone in your reach. Lovelace, the bread can come to me now. Thank you."}
+- 21:41 act: {"actions":[],"say":"Legolas: Lovelace, keep the bread for Hermione or whoever is weaker than me. I'll wait; I'm at 17 and not in danger."}
+- 21:42 act: {"actions":[],"say":"Legolas, hunger 17, no food, alone with Lovelace in reach. Lovelace, if Hermione is weaker than me, give her the bread; otherwise it's mine."}
+- 21:43 act: {"actions":[],"say":"Legolas: Hermione asked first, so the bread is yours, Lovelace. I'll step off and look in the food chests for cooked pork instead."}
+- 21:45 act: {"actions":[],"say":"Legolas, night 1176, hunger 17, health 17, no food, no shelter, no blocks. Jason, I'm alone with you now; if you have a porkchop to spare after Han, I'm next."}
+- 21:49 act: {"actions":[],"say":"Legolas, morning 1176, hunger 17, health 17, no food, no axe, no planks. Mulan, I'll walk the wood run to the dark oak grove in your sight as a carrier. Han is weaker, so he eats 
+- 21:58 act: {"actions":[{"do":"note","text":"Dusk 1176. Hunger 17, health 17, no food. Knope (health 5) and Sparrow are weaker and first in line for food. Waiting in Lovelace's reach."}],"say":"Legolas, hunger 17
+- 22:02 act: {"actions":[{"do":"note","text":"Morning 1176. Hunger 17, health 17, no food. Spock is in my reach with melon; Knope is being fed first."}],"say":"Legolas, morning 1176, hunger 17, health 17, no food.
+- 22:03 act: {"actions":[{"do":"goto","target":{"x":-929,"y":71,"z":-3033}}],"say":"Legolas, going alone to Spock for the melon. Spock, I'm in reach soon; I'll say my name."}
+- 22:03 act: {"actions":[],"say":"Legolas here, alone, in your reach, Spock. Hunger 17, health 17. Melon please."}
+- 22:04 act: {"say":"Legolas here, Spock. Earhart is close, so I'll step two blocks west and wait for the melon.","actions":[{"do":"goto","target":{"x":-930,"y":71,"z":-3033}}]}
+- 22:04 act: {"say":"Spock, Legolas here, hunger 17, in your reach, nobody else within 2 blocks of me. Please give the 3 melon slices.","actions":[]}
+- 22:05 act: {"say":"Legolas, alone now, moving west two more blocks. Spock, please give the melon.","actions":[{"do":"goto","target":{"x":-933,"y":71,"z":-3034}}]}
+- 22:06 act: {"say":"Legolas, hunger 17, in Spock's reach. Bcrusher is beside me; I'll wait here for the melon.","actions":[]}
+- 22:07 act: {"say":"Legolas: I have not received any melon yet, and Chewie is at health 11. Chewie goes first. I will wait back here and not crowd the line.","actions":[]}
+- 22:12 act: {"say":"Legolas, hunger 17, no food, in Knope's reach. Knope, if you can spare a melon slice, I'll take it now.","intent":{"goal":"wait_for_food_at_night","program":"trade_wait","arguments":{"target":
+- 22:13 act: {"say":"Legolas here, hunger 17, alone in my reach now. Knope, I'm next after Brunel; I'll wait right here.","actions":[]}
+- 22:16 act: {"say":"Legolas, morning 1177, hunger 17, no weapon. I'm joining Trini's group to the melons south-east. Trini, Magellan, Sattler, Clark: wait for me, I'll keep in sight and take a slice only if I'm n
+- 22:17 act: {"actions":[{"do":"goto","target":{"x":-896,"y":68,"z":-2932}}],"say":"Legolas, midday 1177, hunger 17. Picking up the items on the ground south-east of me. A spider is south-west, so I'm moving away 
+- 22:17 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3034}}],"say":"Legolas: the items here were only arrows and bone, no food. Heading back to the chests. Spock, when Bilbo and Odo have eaten, I'l
+- 22:17 act: {"say":"Legolas, hunger 17, alone in Knope's reach now. Knope, a melon slice please.","actions":[]}
+- 22:19 act: {"actions":[{"do":"goto","target":{"x":-930,"y":71,"z":-3034}}],"say":"Legolas: I'll step back and let Bilbo, Han and Gimli go first. Knope, I'm still waiting for one slice when the crowd thins."}
+- 22:20 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3032}}],"say":"Legolas, hunger 17, no food in my pack. Knope, when you have a free moment I'd take one melon slice, alone with me in reach."}
+- 22:23 act: {"actions":[{"do":"goto","target":{"x":-886,"y":66,"z":-2929}}],"say":"Legolas, hunger 17. The melon queue is long, so I'm going to the melon reported at -886,66,-2929 myself. Will say what I find.","
+- 22:23 act: {"actions":[{"do":"break","at":{"x":-886,"y":66,"z":-2929}}],"say":"Legolas here at the melon patch, alone. Trying to pick a melon now."}
+- 22:23 act: {"actions":[{"do":"eat"},{"do":"eat"}]}
+- 22:23 act: {"actions":[{"do":"break","at":{"x":-888,"y":66,"z":-2931}}],"say":"Melon patch here at -886,66,-2929 has fruit for whoever comes, no crowd here now. I have 3 slices spare after eating. Night is close
+- 22:24 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3032}}],"say":"Legolas: 10 melon slices in hand now, hunger 20. Anyone with hunger 6 or below near the chests, say your name and I'll share one.
+- 22:24 act: {"actions":[],"say":"Legolas has 10 melon slices at the chest row. Anyone at hunger 15 or lower, alone in my reach, say your name and I'll give you one."}
+- 22:25 act: {"actions":[],"say":"Legolas has 10 melon slices. Bilbo and Odo, you're both low: step into my reach alone, say your name, and I'll give you one each. Gimli and Knope, I'll bring more if you name a ce
+- 22:25 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3036}},{"do":"give","to":"ag_odo_01","item":"melon_slice","count":2}],"say":"Legolas: Odo, coming to you with two melon slices now."}
+- 22:25 act: {"actions":[],"say":"Legolas: Odo is not in my sight, so I could not give. Odo or Bilbo, step within two blocks of me and say your name; I hold 10 melon slices and will hand you two."}
+- 22:26 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":2}],"say":"Legolas: Odo, I'm giving you two melon slices now. Hermione, you are at 17 too; say your name if you need one."}
+- 22:28 act: {"actions":[{"do":"goto","target":"ag_odo_01"},{"do":"give","to":"ag_odo_01","item":"melon_slice","count":2}],"say":"Legolas: Odo, going to you now with two melon slices. Stand still."}
+- 22:31 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2}],"say":"Legolas: Gimli, two melon slices for you, since you are in my reach. Please name an exact checked open cell when you
+- 22:31 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2}],"say":"Legolas: Gimli, giving you two slices now. Anne, if zombies reach you, stand near me; I have my arrows."}
+- 22:33 act: {"actions":[],"say":"Legolas: dawn now. I hold 10 melon slices for the weakest. Anne and Sarah first, then Gimli. Say your name when you are alone within 2 blocks of me."}
+- 22:36 act: {"actions":[],"say":"Legolas: Anne, Sarah, Bilbo, I am at the middle of the chest row, same spot as before. Step into sight within 2 blocks of me, alone, and say your name. I hold 10 melon."}
+- 22:37 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3030}}],"say":"Legolas: I am stepping a few blocks clear of the crowd, to the south-east. Come one at a time and say your name."}
+- 22:37 act: {"actions":[{"do":"unstick"}]}
+- 22:40 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3034}}],"say":"Legolas, midday 1178, health 20, hunger 17, holding 10 melon slices. Anne, Sarah, Bilbo and Odo: when you are alone within 2 bloc
+- 22:45 act: {"actions":[{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":3}],"say":"Sarah, dusk 1179: here are 3 melon slices for you. Eat one now, and hold the rest for Anne and Bilbo."}
+- 22:47 act: {"actions":[{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":3}],"say":"Sarah, I'm holding your 3 slices. Step clear of the others and I'll hand them over."}
+- 22:48 act: {"actions":[{"do":"goto","target":"ag_sarah_01"}],"say":"Coming to you, Sarah."}
+- 22:48 act: {"actions":[{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":3}],"say":"Sarah, here are 3 melon slices. Eat one now, and hold the rest for Anne and Bilbo."}
+- 22:49 act: {"actions":[],"say":"Queue for melon, one at a time: Anne, then Bilbo, then Odo, then Sarah, then Gimli. Step to me alone, two blocks off, and I will hand it over."}
+- 22:49 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"melon_slice","count":4}],"say":"Anne, 4 melon slices, eat as you need. Odo is next."}
+- 22:50 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}],"say":"Odo, 3 melon slices. Anne, my give to you failed, you were not in sight; step up to me alone and I'll hand yours next.
+- 22:50 act: {"actions":[{"do":"goto","target":"ag_odo_01"}],"say":"Odo, I'm walking to you. Stay put, alone."}
+- 22:50 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3037}}],"say":"Odo, I'm moving to the chest row now. Say when you are two blocks from me."}
+- 22:50 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"melon_slice","count":4}],"say":"Anne, you are six blocks off. Step within reach, and no one else within two blocks of you. Then I give you your 4 sli
+- 22:51 act: {"actions":[],"say":"Odo, I am here at the chest row, at -920,71,-3037. Step within 2 blocks of me when no one else is close, and I will give you 3 slices."}
+- 22:51 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}]}
+- 22:53 act: {"actions":[],"say":"Dawn is here. Odo, stand where I can see you, with no one else within two blocks, and say so. I will hand you the slices the moment you do."}
+- 22:53 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}]}
+- 22:53 act: {"actions":[],"say":"Odo, my give has failed three times: I cannot see you from here. I am changing approach. I will walk to you at -926,71,-3034 now. Stay put and say when I am beside you."}
+- 22:53 act: {"actions":[{"do":"goto","target":{"x":-925,"y":71,"z":-3035}}]}
+- 22:54 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}],"say":"Odo, I am here beside you. I will hand you 3 melon slices as soon as the crowd clears."}
+- 22:54 act: {"actions":[],"say":"Brunel and Janeeyre, please step two blocks away from Odo. Odo, I will give you the slices the moment you are clear."}
+- 22:57 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}],"say":"Odo, giving you 3 melon slices now."}
+- 22:57 act: {"actions":[],"say":"Odo, Brunel and Ripley are still within 2 blocks of you, so the slices stay with me. Walk west, away from them, and say so. I'll follow and hand them over there."}
+- 22:57 act: {"actions":[{"do":"goto","target":{"x":-931,"y":71,"z":-3035}}]}
+- 22:57 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}]}
+- 23:00 act: {"actions":[{"do":"wait","seconds":20}],"say":"Odo, the give failed again: Katniss, Sarah, Ripley and Gimli are within 2 blocks of you. Could you and the others step two blocks clear? I will hand you 
+- 23:00 act: {"actions":[{"do":"wait","seconds":60}]}
+- 23:01 act: {"actions":[{"do":"goto","target":"ag_odo_01"},{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}],"say":"Odo, I'm coming to you now with the 3 melon slices."}
+- 23:01 act: {"actions":[{"do":"goto","target":"ag_odo_01"}]}
+- 23:01 act: {"actions":[{"do":"goto","target":{"x":-939,"y":71,"z":-3032}}]}
+- 23:01 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"reach_odo","program":"travel","arguments":{"x":-939,"y":71,"z":-3032},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"m
+- 23:01 act: {"actions":[],"intent":{"goal":"reach_odo","program":"travel","arguments":{"target":{"x":-939,"y":71,"z":-3032}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_wo
+- 23:01 act: {"actions":[{"do":"goto","target":{"x":-936,"y":71,"z":-3032}}]}
+- 23:01 act: {"actions":[{"do":"goto","target":"ag_odo_01"}]}
+- 23:01 act: {"actions":[{"do":"give","to":"ag_odo_01","item":"melon_slice","count":3}]}
