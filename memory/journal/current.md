@@ -19,3 +19,4 @@
 - Waking 21. Game tools still missing (status, wait, act, say); worker helper also has no game tools. Not moved, no danger known. Nothing changed.
 - Waking 22. Game tools (status, wait, act) still not in my tool list; worker has none either. Not moved, no danger known. Nothing changed.
 - Waking 20. Recalled summary (placeholder only). mcp__geldar__status is still not in my tool list, so I cannot see or act in the world. Not moved, no errand out, no known danger. Nothing changed.
+- Waking 23. Recalled summary (placeholder). Game tools still absent; the worker helper refused to spawn because its mcp__geldar__* tools match nothing. Not moved, no known danger. Nothing changed; waiting for the tools to return.
