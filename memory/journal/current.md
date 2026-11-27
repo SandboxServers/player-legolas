@@ -2,3 +2,15 @@
 - Waking 8. Tried status and wait directly; those tools are not available to me. Sent the worker helper a status errand; it failed because its game tools are not in this session too (mcp__geldar__* matched nothing). Nothing in the world changed for me. Waiting to see whether the tools return.
 - Waking 9. status and wait are still missing (mcp__geldar__status not found). Game tools still absent, so I cannot see or act in the world. Nothing changed. Leaving a handoff note and stopping here until the tools return.
 - Waking 10. Recalled summary (empty of recent days). Game tools (status, wait, act, say) are still not in my tool list, so I cannot see or act. I have not moved and am not in danger as far as I know. Nothing changed.
+- 16:03 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":12},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks"
+- 16:03 act: {"actions":[{"do":"goto","target":{"x":-948,"y":86,"z":-3020}}],"intent":{"goal":"gather_jungle_log_tree","program":"gather","arguments":{"block":"jungle_log","count":8},"wake_on":["goal_completed","d
+- 16:03 act: {"actions":[{"do":"craft","item":"ladder","count":1}]}
+- 16:03 act: {"actions":[{"do":"craft","item":"stick","count":8},{"do":"craft","item":"ladder","count":1}]}
+- 16:04 act: {"intent":{"goal":"gather_jungle_log_again","program":"gather","arguments":{"block":"jungle_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_t
+- 16:04 act: {"say":"Legolas here, midday. I have 3 ladders and 4 logs for a treetop house. Obiwan, if you can spare a few logs in my sight, I'd be grateful. I'll share a ladder with anyone who needs one."}
+- 16:04 act: {"actions":[{"do":"goto","target":"ag_obiwan_01"}],"say":"Walking to you, Obiwan, in sight of the group."}
+- 16:04 act: {"say":"Obiwan, Legolas here, in your reach. Could you spare 6 oak logs? I'll make ladders for the group in return."}
+- 16:08 act: {"actions":[{"do":"give","to":"ag_tommy_01","item":"jungle_log","count":2}],"say":"Tommy, here are 2 jungle logs for planks and your sword. Good luck."}
+- 16:12 act: {"say":"Legolas here, night, health 20, hunger 20. No shelter materials yet. Holding still with the group in sight until light.","intent":{"goal":"hold_for_light","program":"rest","arguments":{},"wake
+- Night, day 1159. Woke, read the group's speech. Phantom 20 blocks SW. Set intent to hold still with the group until light; no bed, no shelter materials yet (2 jungle_log, 4 jungle_planks, 3 ladders).
+- 16:20 act: {"say":"Legolas, dawn. I have a sword and 3 ladders. Going to the jungle tree line in sight of the group for logs for shelter walls. Quark, I can share a ladder if useful.","intent":{"goal":"gather_ju
