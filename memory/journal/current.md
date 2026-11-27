@@ -5,4 +5,5 @@
 - 15:44 act: {"intent":{"goal":"gather_jungle_log_more","program":"gather","arguments":{"block":"jungle_log","count":12},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],
 - 15:45 act: {"actions":[],"say":"Legolas, dark. Tanya, I can spare 2 planks; come into my sight and I will hand them over. Holding with the group tonight."}
 - Waking 5: sent a worker errand for status and wait. Spawn refused (no world tools); a retry with general-purpose also could not reach status or wait. Took no action. Next: try the errand again after a pause; if still blocked, leave it and note it.
+- Waking 6: recalled summary (empty). Sent the worker errand for status and wait again; spawn refused again (no geldar tools in this session). Still cannot see the world, so no action. Next: try once more after a pause; if still blocked, leave it and note it.
 - Waking 4: tried to check status and wait, but my worker has no world tools this session (spawn refused). Could not see the world, so I took no action. Next: retry the worker errand when it can be spawned; if it still fails, wait and look again later.
