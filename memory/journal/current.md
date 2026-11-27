@@ -15,3 +15,4 @@
 - Night, day 1159. Woke, read the group's speech. Phantom 20 blocks SW. Set intent to hold still with the group until light; no bed, no shelter materials yet (2 jungle_log, 4 jungle_planks, 3 ladders).
 - 16:20 act: {"say":"Legolas, dawn. I have a sword and 3 ladders. Going to the jungle tree line in sight of the group for logs for shelter walls. Quark, I can share a ladder if useful.","intent":{"goal":"gather_ju
 - Waking 16. Recalled summary (empty of recent days). status is still not in my tool list (mcp__geldar__status not found), so I cannot see or act. Nothing changed; I have not moved.
+- Waking 19. Recalled summary (still only the placeholder heading). mcp__geldar__status is still missing; the worker helper failed to start because its game tools resolve to nothing in this session. I have not moved or acted. Last known: around -948,86,-3020, 20 health and hunger, 2 jungle_log, 4 jungle_planks, 3 ladders, a sword. Goal unchanged.
