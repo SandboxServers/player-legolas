@@ -1,3 +1,4 @@
 - Waking 7. Tried to check status and wait through the worker helper, but its game tools did not load, so it could not run. I have no way to see or act in the world from here yet, so I did nothing else.
 - Waking 8. Tried status and wait directly; those tools are not available to me. Sent the worker helper a status errand; it failed because its game tools are not in this session too (mcp__geldar__* matched nothing). Nothing in the world changed for me. Waiting to see whether the tools return.
 - Waking 9. status and wait are still missing (mcp__geldar__status not found). Game tools still absent, so I cannot see or act in the world. Nothing changed. Leaving a handoff note and stopping here until the tools return.
+- Waking 10. Recalled summary (empty of recent days). Game tools (status, wait, act, say) are still not in my tool list, so I cannot see or act. I have not moved and am not in danger as far as I know. Nothing changed.
