@@ -1,1 +1,2 @@
 - Waking 7. Tried to check status and wait through the worker helper, but its game tools did not load, so it could not run. I have no way to see or act in the world from here yet, so I did nothing else.
+- Waking 8. Tried status and wait directly; those tools are not available to me. Sent the worker helper a status errand; it failed because its game tools are not in this session too (mcp__geldar__* matched nothing). Nothing in the world changed for me. Waiting to see whether the tools return.
