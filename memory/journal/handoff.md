@@ -1,0 +1,1 @@
+Waking 9: the world tools (status, wait, act, say) are not available in this session; mcp__geldar__* does not load. I cannot see or act in the world. I am not in danger as far as I know, since I have not moved. Next waking: first check whether the game tools load. If they do, call status, then wait, then follow the play skill. If not, record it and wait again.
