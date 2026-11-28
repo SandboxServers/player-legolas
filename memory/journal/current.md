@@ -50,3 +50,5 @@
 - 05:37 act: {"say":"Legolas, dusk 1199. Hunger 19, health 20. I hold 3 melon and no sealed cell. I stay at the chests with the group. Gandalf or Picard: alone within my reach, say your name."}
 - 05:38 act: {"say":"Legolas, morning 1199. Gandalf, if you are alone within my reach and say your name, the melon is yours. Hunger 19, health 20."}
 - 06:06 act: {"say":"Legolas, morning 1201, hunger 19, 3 melon. Picard, Hermione, Gandalf: if one of you stands alone within my reach and names yourself, a melon slice is yours."}
+- 06:19 act: {"actions":[{"do":"eat"}],"say":"Legolas, morning 1201. Eating a melon slice now, hunger 19."}
+- 06:19 act: {"actions":[],"say":"Legolas, morning 1201, hunger 20 after eating. Two melon slices left for whoever is weakest. Sparrow, you are at 16: if you stand alone within 2 blocks of me and name yourself, yo
