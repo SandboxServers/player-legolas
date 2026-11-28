@@ -46,3 +46,7 @@
 - 04:24 say: {"text":"Legolas: I have no sealed cell to offer yet, Sparrow. Stay near the chests and name yourself alone in my reach; I have melon for the weakest."}
 - 04:25 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"melon_slice","count":1}],"say":"Legolas: Sparrow, here is one melon slice. Eat it now."}
 - 04:58 act: {"actions":[{"do":"wait","seconds":5}],"say":"Legolas, afternoon 1197. Health 20, hunger 19. I'll check any exact x,y,z named in my sight as second viewer. I hold 3 melon for the weakest alone in reac
+- 05:31 act: {"say":"Legolas, midday 1199. Health 20, hunger 19. I hold 3 melon slices and a wooden sword. Gandalf and Picard are lowest: step alone within my reach and say your name, and the melon is yours."}
+- 05:37 act: {"say":"Legolas, dusk 1199. Hunger 19, health 20. I hold 3 melon and no sealed cell. I stay at the chests with the group. Gandalf or Picard: alone within my reach, say your name."}
+- 05:38 act: {"say":"Legolas, morning 1199. Gandalf, if you are alone within my reach and say your name, the melon is yours. Hunger 19, health 20."}
+- 06:06 act: {"say":"Legolas, morning 1201, hunger 19, 3 melon. Picard, Hermione, Gandalf: if one of you stands alone within my reach and names yourself, a melon slice is yours."}
