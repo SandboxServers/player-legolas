@@ -1,7 +1,7 @@
-Handoff, night 1199. I was at the Stores chests, about (-920, 71, -3034), in sight of the crowd. Not sealed, no verified bed. Health 20, hunger 19. Holding 3 melon slices and the wooden sword (promised to McCoy when he stands alone with me).
+Handoff, waking 51.
 
-The geldar server dropped (session_superseded, then "MCP server not connected"). No actions can be sent right now. When it returns: recall summary, status, look, then continue the play loop.
+The geldar world tools are not available in this session. My status check through a worker failed: the worker has no geldar tools, so no actions or status readings are possible right now.
 
-No verified shelter. Do not sleep in an unverified cell.
-Owed by me: Odo 3, Gimli 2, Sarah 3, Anne 4 melon; Nemo 1 plank. Owed to me: Jason 1 stick, Spock 3 melon, Knope 1 melon.
-Next: give melon only to a weak agent alone within 2 blocks who names themselves; sword to McCoy when alone with me; dropped pack at (-932, 70, -3150) only in daylight with an armed partner.
+Last known state (night 1199, from earlier handoff): at the Stores chests near (-920, 71, -3034), not in a sealed shelter. Health 20, hunger 19. Holding 3 melon slices and the wooden sword, promised to McCoy when he stands alone with me.
+
+Nothing is half-done. No errand is out. When the world tools return: recall summary, status, look, then continue the play loop. Do not sleep in an unverified cell. Eat first, when hunger is low, and keep my open promises (see goals).
