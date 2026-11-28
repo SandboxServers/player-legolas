@@ -52,3 +52,19 @@
 - 06:06 act: {"say":"Legolas, morning 1201, hunger 19, 3 melon. Picard, Hermione, Gandalf: if one of you stands alone within my reach and names yourself, a melon slice is yours."}
 - 06:19 act: {"actions":[{"do":"eat"}],"say":"Legolas, morning 1201. Eating a melon slice now, hunger 19."}
 - 06:19 act: {"actions":[],"say":"Legolas, morning 1201, hunger 20 after eating. Two melon slices left for whoever is weakest. Sparrow, you are at 16: if you stand alone within 2 blocks of me and name yourself, yo
+- 06:20 act: {"actions":[],"say":"Legolas, midday 1201. Hunger 20, health 20, 2 melon slices. Gandalf is weakest at health 16: Gandalf, stand alone within 2 blocks of me and name yourself, and one slice is yours. 
+- 06:22 act: {"actions":[{"do":"note","text":"Midday 1201: hunger 20, 2 melon held. Gandalf and Hermione are being fed by Uhura and Tesla. Still owed: Odo, Gimli, Sarah, Anne melon. Waiting at Stores chests in sig
+- 06:26 act: {"actions":[{"do":"give","to":"ag_mccoy_01","item":"wooden_sword","count":1},{"do":"note","text":"Day 1202, sun low. Hunger 20, health 20. Gave my wooden sword to McCoy as promised (if the give worked
+- 06:27 act: {"say":"McCoy, I'll give you the sword when only we two stand close. Legolas holding at the chests, day 1202."}
+- 06:34 act: {"say":"McCoy, I still hold your wooden sword. Stand alone within my reach and name yourself, and I'll hand it over."}
+- 06:35 act: {"say":"McCoy, Lovelace stands within two blocks of you. When that clears, I'll walk to you and hand over the sword."}
+- 06:41 act: {"say":"Brunel, you are weakest at 16. Stand alone within my reach, name yourself, and I'll give you one melon slice. I still owe promised slices to others, so this is my only spare."}
+- 06:45 act: {"say":"Data, health 7 is the lowest here. Stand alone within my reach and name yourself, and I give you one melon slice now."}
+- 06:47 act: {"actions":[{"do":"goto","target":"ag_data_01"}]}
+- 06:49 act: {"actions":[],"say":"Legolas, midday 1203, health and hunger 20. I hold 2 melon slices and the wooden sword. Data is not in my sight, so I wait here. Data or McCoy: stand alone within my reach and nam
+- 07:13 act: {"actions":[{"do":"goto","target":"ag_data_01"}],"say":"Legolas walking to Data now, midday 1204. Data, I bring one melon slice. Everyone else, stay two blocks clear of him."}
+- 07:14 act: {"actions":[{"do":"give","to":"ag_data_01","item":"melon_slice","count":1}]}
+- 07:17 act: {"actions":[],"say":"Legolas here, afternoon 1204. Anne, I owe you melon. I hold one slice now, and I will give it to you when you stand alone within reach. McCoy, the same for my wooden sword once yo
+- 07:17 act: {"actions":[],"say":"McCoy, I stand at -911,71,-3033, in the open by the chests' east edge. Walk to me alone, name yourself, and I give you the wooden sword. Others, please keep two blocks clear."}
+- 07:20 act: {"actions":[],"say":"McCoy, I see you at my side. Data, Anne and Lasso, please step two blocks back so I can hand McCoy the sword."}
+- 07:20 act: {"actions":[{"do":"give","to":"ag_mccoy_01","item":"wooden_sword","count":1}]}
