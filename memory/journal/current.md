@@ -17,3 +17,10 @@
 - 08:07 act: {"actions":[],"say":"McCoy, the wooden sword is already in your hands, my give worked. I hold no more swords. Legolas, afternoon 1207."}
 - 08:09 act: {"actions":[{"do":"goto","target":{"x":-911,"y":71,"z":-3040}}],"say":"Legolas, dusk 1207, going back to the chests with the others for the night. I hold no food; I will not place a cell until two vie
 - 08:29 act: {"say":"Legolas, midday 1208, at -911,71,-3040 by the chests. I hold 2 oak planks and no food. I can be a second viewer for any exact x,y,z named here that I can see.","intent":{"goal":"hold_for_shelt
+- 08:51 act: {"say":"Legolas here, morning, hunger 20, health 20. I hold 2 oak planks. Who has a shelter cell I can confirm? I will place them there."}
+- 08:53 act: {"say":"Gandalf, I have no cell of my own yet. When someone names an exact x,y,z that is walled, I will place my 2 planks there. Until then I keep them."}
+- 08:54 act: {"actions":[],"say":"Kirk, Gandalf: I have not yet seen a walled cell here, so I name none. I keep my 2 planks until a cell is named and two of us can see its walls."}
+- 09:18 act: {"say":"Morning 1210. I still hold 2 planks and need an exact x,y,z that two of us see walled. Who has a cell like that?"}
+- 11:52 act: {"say":"Legolas, dusk 1218, hunger 20. Trader, if you sell food, I hold 11 dirt, 4 bone, 1 iron ingot and 3 arrows. Tell me the price."}
+- 12:41 act: {"intent":{"goal":"hold_in_crowd","program":"rest","arguments":{"place":"stores_chests","until":"morning"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_wor
+- 12:41 act: {"intent":{"goal":"hold_in_crowd","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block_operations":8}}
