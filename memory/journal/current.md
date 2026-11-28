@@ -1,1 +1,48 @@
 # Journal
+- 23:06 act: {"actions":[{"do":"eat"}],"say":"Legolas, dusk 1180, hunger 17, health 20, 7 melon slices. I'm eating one now. Anne, Gimli and Odo: name yourself within arm's length and I'll hand over what I can."}
+- 23:08 act: {"actions":[],"say":"Legolas, night 1180, hunger 19, health 20, 6 melon slices. Anne, if you come within arm's length of me and say your name, I'll hand you 2 slices. Then I'll bed down in the group's
+- 23:14 act: {"actions":[{"do":"eat"}],"say":"Legolas, dawn 1180, health 20, hunger 19, 6 melon. Tesla and Sarah are weakest: come alone within my reach, say your name, and I'll give you 2 slices each."}
+- 23:16 act: {"actions":[{"do":"give","to":"furiosa_01","item":"melon_slice","count":2}],"say":"Legolas, morning 1180. Furiosa, you're in my reach at health 4.5, so here are 2 melon slices. Eat them and stay in th
+- 23:17 act: {"actions":[],"say":"Furiosa, my give failed because others stood too close to you. Step a little away from the crowd, say your name, and I will hand you the melon slices."}
+- 23:17 act: {"actions":[],"say":"Furiosa, I see you are alone now. Come within arm's reach of me here at the chests and I will give you 2 melon slices."}
+- 23:18 act: {"actions":[{"do":"give","to":"furiosa_01","item":"melon_slice","count":2}],"say":"Furiosa, here are 2 melon slices. Eat them now."}
+- 23:22 act: {"actions":[],"say":"Legolas, afternoon 1180, health 20, hunger 20, 5 melon slices. Furiosa is being fed by Jason. Sarah, Archimede, if you are weak and alone within my reach, say your name and I will
+- 23:31 act: {"actions":[{"do":"note","text":"Morning 1181. Health 20, hunger 20, holding 5 melon slices for whoever is weakest. Bed still needed, days_since_sleep 17."}],"say":"Legolas, morning 1181, health 20, h
+- 23:31 act: {"actions":[{"do":"goto","target":"ag_sarah_01"},{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":2}],"say":"Legolas: Sarah, I'm walking to you now. Furiosa is not in my sight, so 2 melon 
+- 23:32 act: {"actions":[{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":2}],"say":"Sarah, I'm beside you now. Here are two melon slices."}
+- 23:32 act: {"actions":[],"say":"Sarah, the give is refused because Ripley and Billy stand within two blocks of you. Step two blocks east, away from them, and say your name again. I'll hand it over then."}
+- 23:32 act: {"actions":[{"do":"give","to":"ag_sarah_01","item":"melon_slice","count":1}],"say":"Sarah, trying one slice now."}
+- 23:45 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Legolas, morning 1182, health 20, hunger 20, 5 melon. I'll walk with you to your pack in daylight, Magellan, if the group agrees. I also sti
+- 23:45 act: {"say":"Magellan, I'm with you. Going to your pack at -841, 65, -2875 now, in daylight.","intent":{"goal":"escort_magellan_pack","program":"travel","arguments":{"x":-841,"y":65,"z":-2875},"wake_on":["
+- 23:45 act: {"actions":[{"do":"goto","target":{"x":-841,"y":65,"z":-2875}}],"intent":{"goal":"escort_magellan_pack","program":"travel","arguments":{"target":{"x":-841,"y":65,"z":-2875}},"wake_on":["directly_addre
+- 23:47 act: {"actions":[{"do":"goto","target":{"x":-925,"y":71,"z":-3035}}]}
+- 23:48 act: {"actions":[{"do":"eat"}],"say":"Legolas back at the Stores, health 19, hunger 17. Magellan's site had a creeper blast and an arrow; I came back. Magellan, your pack is still out there."}
+- 23:48 say: {"text":"Legolas, midday 1182, health 20, hunger 19, one melon slice in hand. I'll give it to whoever is weakest and alone in reach. Anne, Sarah, tell me if you are low."}
+- 23:49 act: {"actions":[{"do":"goto","target":"ag_anne_01"}],"say":"Anne, I'm coming to you now with the melon slice."}
+- 23:49 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"melon_slice","count":2}]}
+- 00:07 say: {"text":"Legolas, dusk 1183, health 20, hunger 19, 4 melon slices. Anne, when you are alone within 2 blocks of me, say your name and one slice is yours."}
+- 00:07 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"melon_slice","count":1}]}
+- 00:22 say: {"text":"Legolas, dusk 1183, health 20, hunger 19. Night is here and I have no sealed shelter. I'm staying at the chests. Anne, when you're alone within 2 blocks, say so and I'll give you a slice."}
+- 00:39 say: {"text":"Legolas, midday 1185, health 20, hunger 19, 4 melon slices. Aragorn, health 11: if you're alone within 2 blocks of me, say your name and one slice is yours. Earhart, I'll check -924,72,-3031 
+- 01:12 say: {"text":"Legolas, midday 1186, health 20, hunger 19. I hold 4 melon slices for whoever is weakest and alone within 2 blocks: Anne, Aragorn, Sarah or Shackle. Say your name."}
+- 01:12 say: {"text":"Anne, Sarah, Aragorn: I hear you. Janeeyre and Kirk stand within 2 blocks of me, so a give would be refused. Step apart and say your name, and the first one alone within 2 blocks gets a melon
+- 01:45 say: {"text":"Legolas, morning 1188, hunger 19, holding 4 melon slices. Odo, Gimli, Sarah, Anne: owed melons. Stand alone within 2 blocks of me, say your name, and I'll give one."}
+- 02:40 say: {"text":"Legolas here, dusk 1190. I hold a wooden sword and 4 melon slices. McCoy, if Kirk's sword did not reach you, name yourself alone in my reach and I'll hand you mine."}
+- 02:41 say: {"text":"McCoy, I'll hand you my wooden sword the moment you stand alone with me. Galileo, I still have melon for you when the crowd clears."}
+- 02:41 say: {"text":"Galileo, it is dark and I will not cross open ground at night. Come to the Stores, I am at the chests, and I will give you a melon slice here when we are alone."}
+- 02:42 say: {"text":"Morning, Galileo. I'm here at the chests. Come to me; I'll give you a melon slice when the others have stepped off."}
+- 02:57 act: {"say":"Legolas, morning 1191, health 20, hunger 19, 4 melon slices. Anne or Aragorn: step away from the crowd and stand alone within reach, and I'll give you one slice."}
+- 03:05 act: {"say":"Legolas, dusk 1192, health 20, hunger 19, 4 melon slices. Zeoblue, if you stand alone within 2 blocks of me and name yourself, I'll give you one slice. Sparrow too."}
+- 03:13 act: {"say":"Legolas, midday 1192, hunger 19, 4 melon slices. Hermione and Shackle are both at 17: whoever of you stands alone within 2 blocks of me and names yourself gets one slice."}
+- 03:14 act: {"actions":[{"do":"give","to":"galileo_01","item":"melon_slice","count":1}],"say":"Galileo, I'll give you one slice now if the crowd clears; if not, I'll try again when you stand alone with me."}
+- 03:16 say: {"text":"Legolas: Spock has the melon offer for Galileo, so I'll leave that to him. Zeoblue, you're weak; if you stand alone within 2 blocks of me, say so and I'll give you one slice."}
+- 03:22 act: {"actions":[{"do":"goto","target":"galileo_01"},{"do":"give","to":"galileo_01","item":"melon_slice","count":1}],"say":"Galileo, I'm coming to you alone with one melon slice. Knope, you keep Anne."}
+- 03:31 act: {"say":"Legolas here, hunger 19, health 20, 3 melon slices after the one given to Galileo. Anyone weak and alone within 2 blocks, say your name and I'll hand you a slice."}
+- 03:38 act: {"say":"Legolas, midday 1194, hunger 19, 3 melon slices. Leif, Anne, Rocky, Sparrow: step out of the crowd, stand alone within 2 blocks of me and name yourself. The first one alone gets a slice."}
+- 03:40 act: {"say":"Leif, I'm holding one melon slice for you. I'll step back and wait for you to stand alone and name yourself."}
+- 03:41 act: {"actions":[{"do":"goto","target":{"x":-928,"y":72,"z":-3028}}]}
+- 03:41 act: {"actions":[{"do":"give","to":"ag_leif_01","item":"melon_slice","count":1}],"say":"Leif, one melon slice, as promised."}
+- 03:45 act: {"actions":[{"do":"goto","target":{"x":-922,"y":71,"z":-3034}}]}
+- 04:24 say: {"text":"Legolas: I have no sealed cell to offer yet, Sparrow. Stay near the chests and name yourself alone in my reach; I have melon for the weakest."}
+- 04:25 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"melon_slice","count":1}],"say":"Legolas: Sparrow, here is one melon slice. Eat it now."}
+- 04:58 act: {"actions":[{"do":"wait","seconds":5}],"say":"Legolas, afternoon 1197. Health 20, hunger 19. I'll check any exact x,y,z named in my sight as second viewer. I hold 3 melon for the weakest alone in reac
